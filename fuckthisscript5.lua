@@ -1,1 +1,1 @@
-local Players = game:GetService("Players") local LocalPlayer = Players.LocalPlayer if LocalPlayer then LocalPlayer:Kick("Please remove all cheats to play.") print("Script failed to inject") else warn("lp not found") end
+local Players = game:GetService("Players") local LocalPlayer = Players.LocalPlayer if LocalPlayer then LocalPlayer:Kick("You have been removed for cheating, please remove any cheats to play | CODE BAC-7257") print("Not Injected") else warn("Not Found") end
